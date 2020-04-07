@@ -1,0 +1,54 @@
+body{
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    margin-left: 0%;
+}
+
+#calculadora{
+    position: absolute;
+    border: 1px solid #777;
+    background-color: #ccc;
+    width: 50vw;
+    height: 50vh;
+    padding: 10%;
+    border-radius: 10px;
+    margin:5%;
+    left:35%;
+
+}
+
+button{
+    width: 20%;
+    height: 10vh;
+    margin: 3px;
+    border-radius: 5px;
+    border-style: none;
+    font-size: 25pt;
+}
+
+#igualdade{
+    position: absolute;
+    width: 13%;
+    top: 30.8%;
+    left: 79.5%;
+    height: 43vh;
+    background-color: rgb(44,83,134);
+}
+
+#display{
+    width: 94%;
+    height: 10%;
+    font-size: 25pt;
+    overflow: hidden;
+    border: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+#limpartela{
+    background-color: red;
+    color: #fff;
+}
